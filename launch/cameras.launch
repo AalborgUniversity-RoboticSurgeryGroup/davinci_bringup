@@ -4,14 +4,14 @@
 
 	<node name="set_camera_inputs" pkg="davinci_bringup" type="camera_v4l2_settings.bash" />
 
-	<node name="webcam_left" pkg="usb_cam" type="usb_cam_node">
+	<node name="endoscope_left" pkg="usb_cam" type="usb_cam_node">
 		<param name="video_device" value="/dev/davinci_cam_left" />
 		<param name="image_width" value="720" />
 		<param name="image_height" value="576" />
 		<param name="pixel_format" value="yuyv" />
 	</node>
 
-	<node name="webcam_right" pkg="usb_cam" type="usb_cam_node">
+	<node name="endoscope_right" pkg="usb_cam" type="usb_cam_node">
 		<param name="video_device" value="/dev/davinci_cam_right" />
 		<param name="image_width" value="720" />
 		<param name="image_height" value="576" />
