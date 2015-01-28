@@ -1,0 +1,14 @@
+<launch>
+
+    <arg name="localhost" default="false" />
+
+    <rosparam if="$(arg localhost)" >
+        davinci:
+            robot_ips: ['127.0.0.1:41229']
+    </rosparam>
+
+    <include file="$(find davinci_driver)/launch/davinci_driver.launch">
+        <arg name="default_ips" default="false" />
+    </include>
+
+</launch>

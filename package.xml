@@ -26,6 +26,8 @@
 
   <run_depend>rviz</run_depend>
   <run_depend>v4l-utils</run_depend>
+  <run_depend>davinci_driver</run_depend>
+  <run_depend>davinci_moveit_config</run_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

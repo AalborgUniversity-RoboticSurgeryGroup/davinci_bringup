@@ -4,7 +4,7 @@ project(davinci_bringup)
 find_package(catkin REQUIRED)
 
 catkin_package(
- CATKIN_DEPENDS rviz
+ CATKIN_DEPENDS rviz davinci_driver davinci_moveit_config
  DEPENDS v4l-utils
 )
 
