@@ -8,7 +8,7 @@
     </rosparam>
 
     <include file="$(find davinci_driver)/launch/davinci_driver.launch">
-        <arg name="default_ips" default="false" />
+        <arg name="default_ips" value="true" />
     </include>
 
 </launch>
