@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<launch>
-	<include file="$(find davinci_endoscope)/launch/endoscope.launch" />
-	<include file="$(find davinci_bringup)/launch/visualization.launch" />
-</launch>
